@@ -12,7 +12,7 @@ public class ParentClassA {
     private int modifierPrivate = 1;    // The code is only accessible within the declared class
 
     static int num = 0;
-    
+
     public ParentClassA() {
         // Alt+Insert
         num++;
