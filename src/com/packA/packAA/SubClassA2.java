@@ -1,12 +1,12 @@
-package com.packB;
+package com.packA.packAA;
 
 import com.packA.ParentClassA;
 
 /**
  * @author:
- * @date: 2020/12/21
+ * @date: 2020/12/22
  */
-public class ParentClassB1 {
+public class SubClassA2 extends ParentClassA{
     public static void main(String[] args) {
         ParentClassA a1 = new ParentClassA();
         System.out.println(a1.modifierPublic);
