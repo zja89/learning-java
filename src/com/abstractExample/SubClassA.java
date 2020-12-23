@@ -28,5 +28,6 @@ public class SubClassA extends ParentClassA implements InterfaceA,InterfaceB{
         // a.interfaceAMethod();
         SubClassA b = new SubClassA();
         b.interfaceAMethod();
+        System.out.println(SubClassA.DESCRIPTIONA);
     }
 }

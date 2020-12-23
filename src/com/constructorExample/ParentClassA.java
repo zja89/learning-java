@@ -9,10 +9,21 @@ public class ParentClassA {
     public ParentClassA() {
         num ++;
         System.out.println("call ParentClassA()");
+        ParentClassA.staticFunc();
+        this.commonFunc();
     }
 
     public ParentClassA(String name) {
         num ++;
         System.out.println("call ParentClassA(String name)");
+        ParentClassA.staticFunc();
+        this.commonFunc();
+    }
+
+    public void commonFunc(){
+        System.out.println("call commonFunc()");
+    }
+    public static void staticFunc(){
+        System.out.println("call staticFunc()");
     }
 }

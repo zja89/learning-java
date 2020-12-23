@@ -5,6 +5,7 @@ package com.abstractExample;
  * @date: 2020/12/23
  */
 interface InterfaceA {
-    String DESCRIPTION = "THIS IS InterfaceA";
+    String DESCRIPTIONA = "THIS IS InterfaceA";
+    // 相当于 public statc final String DESCRIPTIONA = "THIS IS InterfaceA";
     void interfaceAMethod();    // Ctrl+i
 }

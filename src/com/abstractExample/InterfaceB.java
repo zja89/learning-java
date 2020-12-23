@@ -1,6 +1,6 @@
 package com.abstractExample;
 
 public interface InterfaceB {
-    String DESCRIPTION = "THIS IS InterfaceB";
+    String DESCRIPTIONB = "THIS IS InterfaceB";
     void interfaceBMethod();    // Ctrl+i
 }
