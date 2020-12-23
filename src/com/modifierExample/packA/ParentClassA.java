@@ -10,5 +10,4 @@ public class ParentClassA {
     protected int modifierProtected = 1;    // The code is accessible in the same package and subclasses.
     int modifierDefault = 1;    // The code is only accessible in the same package
     private int modifierPrivate = 1;    // The code is only accessible within the declared class
-
 }
