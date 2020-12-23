@@ -1,4 +1,4 @@
-package com.packA;
+package com.modifierExample.packA;
 
 /**
  * @author:
@@ -11,11 +11,4 @@ public class ParentClassA {
     int modifierDefault = 1;    // The code is only accessible in the same package
     private int modifierPrivate = 1;    // The code is only accessible within the declared class
 
-    static int num = 0;
-
-    public ParentClassA() {
-        // Alt+Insert
-        num++;
-        System.out.println(String.format("call ParentClassA() - %d",num));
-    }
 }

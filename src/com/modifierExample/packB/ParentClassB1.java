@@ -1,6 +1,6 @@
-package com.packB;
+package com.modifierExample.packB;
 
-import com.packA.ParentClassA;
+import com.modifierExample.packA.ParentClassA;
 
 /**
  * @author:
