@@ -1,6 +1,5 @@
 package com.modifierExample.packB;
 
-import com.modifierExample.packA.ParentClassA;
 
 /**
  * @author:
@@ -8,7 +7,10 @@ import com.modifierExample.packA.ParentClassA;
  */
 public class SubClassA3 extends ParentClassA {
     public static void main(String[] args) {
-        ParentClassA a1 = new ParentClassA();
-        System.out.println(a1.modifierPublic);
+        com.modifierExample.packA.ParentClassA a = new com.modifierExample.packA.ParentClassA();
+        System.out.println(a.modifierPublic);
+
+        ParentClassA b = new ParentClassA();
+
     }
 }
