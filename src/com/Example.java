@@ -8,6 +8,7 @@ package com;
 public class Example {
     public Example() {
         // Alt+Insert
+        //Ctrl+Shift+Enter
         final double PI = 3.14;
         int[] arr_1 = new int[5];
         arr_1[0] = 1;
@@ -20,6 +21,7 @@ public class Example {
 
     public static void main(String[] args) {
         // psvm
+        //sout
         System.out.println("sout+Enter");
     }
 }
